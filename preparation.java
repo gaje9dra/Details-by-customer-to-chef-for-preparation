@@ -14,7 +14,7 @@ public class preparation{
         int items=scanner.nextInt();
         System.out.println("How much pumps of vanilla : ");
         int pumps= scanner.nextInt();
- // FIXED: use .equals()
+ // using .equals() to check exact same input that user gave.
         if(ans.equals(withIce)){
             System.out.println("espresso, milk, ice, syrup");
         } else if(ans.equals(withMatcha)){
@@ -31,4 +31,5 @@ public class preparation{
             System.out.println("charge $1 extra");
         }
     }
+
 }
